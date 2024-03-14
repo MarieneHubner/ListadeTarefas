@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@font-face {
+    font-family: fonte;
+    src: url(fonte/Bunny.otf);
+}
+
+
+body {
+    background-image: url(https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg?cs=srgb&dl=pexels-min-an-1353938.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: fonte;
+    font-size: 70px;
+    margin-bottom: 10px;
+
+}
+
+li{
+    text-align: left;
+}
+
+li button{
+    margin-left: 20%;
+}
+
+input{
+    font-family: cursive;
+    margin-bottom: 10px;
+  
+}
+
+.card {
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+    width: 400px;
+    height: 600px;
+    background: #C6DCBA;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.shadow {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(190, 190, 190),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+
+.buttons {
+    max-width: 92%;
+    width: 300px;
+    margin: 30px auto 0;
+    padding-right: 3%;
+    margin-top: -5px;
+    
+}
+
+button {
+    border: 2px solid #B3A398;
+    background-color: #B3A398;
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 13px;
+    font-family: cursive;
+    margin-bottom: 15px;
+    
+}
+
+button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #B3A398;
+}
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    font-family: fonte;
+}
